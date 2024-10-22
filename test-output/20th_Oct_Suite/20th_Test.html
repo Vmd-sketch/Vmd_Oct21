@@ -1,0 +1,764 @@
+<html>
+<head>
+<title>TestNG:  20th_Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>20th_Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>57/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Oct 22 14:06:26 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>395 seconds (395945 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.Cart_page_Test.VerifyRemoveBtn_Test()'><b>VerifyRemoveBtn_Test</b><br>Test class: testcases.Cart_page_Test<br/>
+<a href="#Output-1578643614" onClick='toggleBox("Output-1578643614", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1578643614" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1578643614">
+Remove<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.Cart_page_Test@732d0d24</td></tr>
+<tr>
+<td title='testcases.Inventory_Page_Test.VerifyProd5Desc_Test()'><b>VerifyProd5Desc_Test</b><br>Test class: testcases.Inventory_Page_Test<br/>
+<a href="#Output-1723238207" onClick='toggleBox("Output-1723238207", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1723238207" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1723238207">
+Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.Inventory_Page_Test@4066c471</td></tr>
+<tr>
+<td title='testcases.Inventory_Page_Test.VerifyImgProd4_Test()'><b>VerifyImgProd4_Test</b><br>Test class: testcases.Inventory_Page_Test<br/>
+<a href="#Output-1660124157" onClick='toggleBox("Output-1660124157", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1660124157" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1660124157">
+Image4 Is Presenttrue<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.Inventory_Page_Test@4066c471</td></tr>
+<tr>
+<td title='testcases.Checkout_StepTwo_Page_Test.VerifyImgGoBack2_Test()'><b>VerifyImgGoBack2_Test</b><br>Test class: testcases.Checkout_StepTwo_Page_Test<br/>
+<a href="#Output-1794125280" onClick='toggleBox("Output-1794125280", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1794125280" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1794125280">
+GoBack Image2 is Visible true<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.Checkout_StepTwo_Page_Test@1672fe87</td></tr>
+<tr>
+<td title='testcases.LoginPage_Test.VerifyTitleofApplicationTest()'><b>VerifyTitleofApplicationTest</b><br>Test class: testcases.LoginPage_Test<br/>
+<a href="#Output-950896305" onClick='toggleBox("Output-950896305", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-950896305" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-950896305">
+Swag Labs<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.LoginPage_Test@7cbd9d24</td></tr>
+<tr>
+<td title='testcases.Inventory_Page_Test.VerifyProd1Desc_Test()'><b>VerifyProd1Desc_Test</b><br>Test class: testcases.Inventory_Page_Test<br/>
+<a href="#Output-1603213074" onClick='toggleBox("Output-1603213074", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1603213074" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1603213074">
+carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.Inventory_Page_Test@4066c471</td></tr>
+<tr>
+<td title='testcases.Cart_page_Test.VerifyQTY_Test()'><b>VerifyQTY_Test</b><br>Test class: testcases.Cart_page_Test<br/>
+<a href="#Output-177953925" onClick='toggleBox("Output-177953925", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-177953925" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-177953925">
+QTY is present true<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.Cart_page_Test@732d0d24</td></tr>
+<tr>
+<td title='testcases.Inventory_Page_Test.VerifyProd4_Test()'><b>VerifyProd4_Test</b><br>Test class: testcases.Inventory_Page_Test<br/>
+<a href="#Output-1097482869" onClick='toggleBox("Output-1097482869", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1097482869" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1097482869">
+Sauce Labs Fleece Jacket<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.Inventory_Page_Test@4066c471</td></tr>
+<tr>
+<td title='testcases.Cart_page_Test.VerifyImgGoBack_Test()'><b>VerifyImgGoBack_Test</b><br>Test class: testcases.Cart_page_Test<br/>
+<a href="#Output-1516341319" onClick='toggleBox("Output-1516341319", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1516341319" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1516341319">
+GoBack Image is Presenttrue<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.Cart_page_Test@732d0d24</td></tr>
+<tr>
+<td title='testcases.LoginPage_Test.VerifyURLofApplicationtest()'><b>VerifyURLofApplicationtest</b><br>Test class: testcases.LoginPage_Test<br/>
+<a href="#Output-810673270" onClick='toggleBox("Output-810673270", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-810673270" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-810673270">
+https://www.saucedemo.com/<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.LoginPage_Test@7cbd9d24</td></tr>
+<tr>
+<td title='testcases.Checkout_StepTwo_Page_Test.VerifySubTotalLabel_Test()'><b>VerifySubTotalLabel_Test</b><br>Test class: testcases.Checkout_StepTwo_Page_Test<br/>
+<a href="#Output-1393827135" onClick='toggleBox("Output-1393827135", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1393827135" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1393827135">
+Subtotal Is Present true<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.Checkout_StepTwo_Page_Test@1672fe87</td></tr>
+<tr>
+<td title='testcases.Checkout_StepTwo_Page_Test.VerifyFreeDeliveryLabel_Test()'><b>VerifyFreeDeliveryLabel_Test</b><br>Test class: testcases.Checkout_StepTwo_Page_Test<br/>
+<a href="#Output-440033814" onClick='toggleBox("Output-440033814", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-440033814" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-440033814">
+Free Pony Express Delivery!<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.Checkout_StepTwo_Page_Test@1672fe87</td></tr>
+<tr>
+<td title='testcases.Cart_page_Test.ClickonContinueBtn_Test()'><b>ClickonContinueBtn_Test</b><br>Test class: testcases.Cart_page_Test<br/>
+<a href="#Output-1380077804" onClick='toggleBox("Output-1380077804", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1380077804" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1380077804">
+https://www.saucedemo.com/inventory.html<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.Cart_page_Test@732d0d24</td></tr>
+<tr>
+<td title='testcases.Inventory_Page_Test.VerifyImgProd5_Test()'><b>VerifyImgProd5_Test</b><br>Test class: testcases.Inventory_Page_Test<br/>
+<a href="#Output-244428576" onClick='toggleBox("Output-244428576", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-244428576" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-244428576">
+Image5 Is Presenttrue<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.Inventory_Page_Test@4066c471</td></tr>
+<tr>
+<td title='testcases.Complete_Page_Test.ClickHomeBtn_Test()'><b>ClickHomeBtn_Test</b><br>Test class: testcases.Complete_Page_Test<br/>
+<a href="#Output-1109030187" onClick='toggleBox("Output-1109030187", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1109030187" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1109030187">
+https://www.saucedemo.com/inventory.html<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.Complete_Page_Test@6ee4d9ab</td></tr>
+<tr>
+<td title='testcases.Checkout_StepOne_Page_Test.InputCredentials_Test()'><b>InputCredentials_Test</b><br>Test class: testcases.Checkout_StepOne_Page_Test<br/>
+<a href="#Output-1911280089" onClick='toggleBox("Output-1911280089", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1911280089" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1911280089">
+https://www.saucedemo.com/checkout-step-two.html<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.Checkout_StepOne_Page_Test@1fb19a0</td></tr>
+<tr>
+<td title='testcases.Inventory_Page_Test.VerifyProd6_Test()'><b>VerifyProd6_Test</b><br>Test class: testcases.Inventory_Page_Test<br/>
+<a href="#Output-2117932686" onClick='toggleBox("Output-2117932686", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2117932686" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2117932686">
+Test.allTheThings() T-Shirt (Red)<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.Inventory_Page_Test@4066c471</td></tr>
+<tr>
+<td title='testcases.Checkout_StepTwo_Page_Test.VerifyOvervievPageTitle_Test()'><b>VerifyOvervievPageTitle_Test</b><br>Test class: testcases.Checkout_StepTwo_Page_Test<br/>
+<a href="#Output-971578330" onClick='toggleBox("Output-971578330", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-971578330" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-971578330">
+Checkout: Overview<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.Checkout_StepTwo_Page_Test@1672fe87</td></tr>
+<tr>
+<td title='testcases.Complete_Page_Test.VerifyCompletePage_Title_Test()'><b>VerifyCompletePage_Title_Test</b><br>Test class: testcases.Complete_Page_Test<br/>
+<a href="#Output-161790871" onClick='toggleBox("Output-161790871", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-161790871" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-161790871">
+Checkout: Complete!<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.Complete_Page_Test@6ee4d9ab</td></tr>
+<tr>
+<td title='testcases.Inventory_Page_Test.VerifyProd3Desc_Test()'><b>VerifyProd3Desc_Test</b><br>Test class: testcases.Inventory_Page_Test<br/>
+<a href="#Output-201036751" onClick='toggleBox("Output-201036751", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-201036751" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-201036751">
+Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.Inventory_Page_Test@4066c471</td></tr>
+<tr>
+<td title='testcases.Inventory_Page_Test.add6product_Test()'><b>add6product_Test</b><br>Test class: testcases.Inventory_Page_Test<br/>
+<a href="#Output-1898469011" onClick='toggleBox("Output-1898469011", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1898469011" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1898469011">
+Total Products Added 6<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>testcases.Inventory_Page_Test@4066c471</td></tr>
+<tr>
+<td title='testcases.Cart_page_Test.verifyPageTitle_Test()'><b>verifyPageTitle_Test</b><br>Test class: testcases.Cart_page_Test<br/>
+<a href="#Output-150457292" onClick='toggleBox("Output-150457292", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-150457292" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-150457292">
+Your Cart<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.Cart_page_Test@732d0d24</td></tr>
+<tr>
+<td title='testcases.Cart_page_Test.clickonCheckoutBtn_Test()'><b>clickonCheckoutBtn_Test</b><br>Test class: testcases.Cart_page_Test<br/>
+<a href="#Output-1687813541" onClick='toggleBox("Output-1687813541", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1687813541" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1687813541">
+https://www.saucedemo.com/checkout-step-one.html<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.Cart_page_Test@732d0d24</td></tr>
+<tr>
+<td title='testcases.Inventory_Page_Test.VerifyProd5_Test()'><b>VerifyProd5_Test</b><br>Test class: testcases.Inventory_Page_Test<br/>
+<a href="#Output-220144544" onClick='toggleBox("Output-220144544", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-220144544" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-220144544">
+Sauce Labs Onesie<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.Inventory_Page_Test@4066c471</td></tr>
+<tr>
+<td title='testcases.Inventory_Page_Test.verifypagetitle_Test()'><b>verifypagetitle_Test</b><br>Test class: testcases.Inventory_Page_Test<br/>
+<a href="#Output-1030952115" onClick='toggleBox("Output-1030952115", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1030952115" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1030952115">
+Page TitleProducts<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.Inventory_Page_Test@4066c471</td></tr>
+<tr>
+<td title='testcases.Complete_Page_Test.VerifyImage_Test()'><b>VerifyImage_Test</b><br>Test class: testcases.Complete_Page_Test<br/>
+<a href="#Output-37659006" onClick='toggleBox("Output-37659006", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-37659006" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-37659006">
+Image is Present true<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.Complete_Page_Test@6ee4d9ab</td></tr>
+<tr>
+<td title='testcases.Inventory_Page_Test.VerifyProd2Desc_Test()'><b>VerifyProd2Desc_Test</b><br>Test class: testcases.Inventory_Page_Test<br/>
+<a href="#Output-395752148" onClick='toggleBox("Output-395752148", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-395752148" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-395752148">
+A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.Inventory_Page_Test@4066c471</td></tr>
+<tr>
+<td title='testcases.Cart_page_Test.VerifyCartBackpack_Test()'><b>VerifyCartBackpack_Test</b><br>Test class: testcases.Cart_page_Test<br/>
+<a href="#Output-673722858" onClick='toggleBox("Output-673722858", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-673722858" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-673722858">
+Sauce Labs Backpack<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.Cart_page_Test@732d0d24</td></tr>
+<tr>
+<td title='testcases.Complete_Page_Test.VerifyThankyou_Test()'><b>VerifyThankyou_Test</b><br>Test class: testcases.Complete_Page_Test<br/>
+<a href="#Output-1826462235" onClick='toggleBox("Output-1826462235", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1826462235" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1826462235">
+Thank you for your order!<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.Complete_Page_Test@6ee4d9ab</td></tr>
+<tr>
+<td title='testcases.Inventory_Page_Test.verifyfacebooklogo_Test()'><b>verifyfacebooklogo_Test</b><br>Test class: testcases.Inventory_Page_Test<br/>
+<a href="#Output-1617481121" onClick='toggleBox("Output-1617481121", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1617481121" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1617481121">
+Facebook Logo Is Presenttrue<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.Inventory_Page_Test@4066c471</td></tr>
+<tr>
+<td title='testcases.LoginPage_Test.LoginToApplicationTest()'><b>LoginToApplicationTest</b><br>Test class: testcases.LoginPage_Test<br/>
+<a href="#Output-376724157" onClick='toggleBox("Output-376724157", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-376724157" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-376724157">
+https://www.saucedemo.com/inventory.html<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.LoginPage_Test@7cbd9d24</td></tr>
+<tr>
+<td title='testcases.Checkout_StepTwo_Page_Test.ClickFinishBtn_Test()'><b>ClickFinishBtn_Test</b><br>Test class: testcases.Checkout_StepTwo_Page_Test<br/>
+<a href="#Output-1678161997" onClick='toggleBox("Output-1678161997", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1678161997" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1678161997">
+https://www.saucedemo.com/checkout-complete.html<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.Checkout_StepTwo_Page_Test@1672fe87</td></tr>
+<tr>
+<td title='testcases.Inventory_Page_Test.VerifyProd6Desc_Test()'><b>VerifyProd6Desc_Test</b><br>Test class: testcases.Inventory_Page_Test<br/>
+<a href="#Output-2050791921" onClick='toggleBox("Output-2050791921", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2050791921" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2050791921">
+This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.Inventory_Page_Test@4066c471</td></tr>
+<tr>
+<td title='testcases.Checkout_StepOne_Page_Test.VerifyPageTitleCheckout_Test()'><b>VerifyPageTitleCheckout_Test</b><br>Test class: testcases.Checkout_StepOne_Page_Test<br/>
+<a href="#Output-437674843" onClick='toggleBox("Output-437674843", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-437674843" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-437674843">
+Checkout: Your Information<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.Checkout_StepOne_Page_Test@1fb19a0</td></tr>
+<tr>
+<td title='testcases.Inventory_Page_Test.VerifyImgProd6_Test()'><b>VerifyImgProd6_Test</b><br>Test class: testcases.Inventory_Page_Test<br/>
+<a href="#Output-2126545173" onClick='toggleBox("Output-2126545173", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2126545173" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2126545173">
+Image6 Is Presenttrue<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.Inventory_Page_Test@4066c471</td></tr>
+<tr>
+<td title='testcases.Cart_page_Test.VerifyCartPageUrl_Test()'><b>VerifyCartPageUrl_Test</b><br>Test class: testcases.Cart_page_Test<br/>
+<a href="#Output-2037727008" onClick='toggleBox("Output-2037727008", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2037727008" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2037727008">
+https://www.saucedemo.com/cart.html<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.Cart_page_Test@732d0d24</td></tr>
+<tr>
+<td title='testcases.Cart_page_Test.VerifyDescription_Test()'><b>VerifyDescription_Test</b><br>Test class: testcases.Cart_page_Test<br/>
+<a href="#Output-702811569" onClick='toggleBox("Output-702811569", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-702811569" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-702811569">
+description is present true<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.Cart_page_Test@732d0d24</td></tr>
+<tr>
+<td title='testcases.Inventory_Page_Test.VerifyImgProd3_Test()'><b>VerifyImgProd3_Test</b><br>Test class: testcases.Inventory_Page_Test<br/>
+<a href="#Output-315885065" onClick='toggleBox("Output-315885065", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-315885065" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-315885065">
+Image3 Is Presenttrue<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.Inventory_Page_Test@4066c471</td></tr>
+<tr>
+<td title='testcases.Inventory_Page_Test.VerifyImgProd2_Test()'><b>VerifyImgProd2_Test</b><br>Test class: testcases.Inventory_Page_Test<br/>
+<a href="#Output-1343293809" onClick='toggleBox("Output-1343293809", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1343293809" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1343293809">
+Image2 Is Presenttrue<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.Inventory_Page_Test@4066c471</td></tr>
+<tr>
+<td title='testcases.Checkout_StepTwo_Page_Test.ClickCancelBtn_Test()'><b>ClickCancelBtn_Test</b><br>Test class: testcases.Checkout_StepTwo_Page_Test<br/>
+<a href="#Output-285721701" onClick='toggleBox("Output-285721701", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-285721701" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-285721701">
+https://www.saucedemo.com/inventory.html<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.Checkout_StepTwo_Page_Test@1672fe87</td></tr>
+<tr>
+<td title='testcases.Inventory_Page_Test.Remove4products_Test()'><b>Remove4products_Test</b><br>Test class: testcases.Inventory_Page_Test<br/>
+<a href="#Output-1238013097" onClick='toggleBox("Output-1238013097", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1238013097" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1238013097">
+Total Products in cart 2<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>testcases.Inventory_Page_Test@4066c471</td></tr>
+<tr>
+<td title='testcases.Inventory_Page_Test.verifyFooter_Test()'><b>verifyFooter_Test</b><br>Test class: testcases.Inventory_Page_Test<br/>
+<a href="#Output-1696394747" onClick='toggleBox("Output-1696394747", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1696394747" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1696394747">
+Footer is Presenttrue<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.Inventory_Page_Test@4066c471</td></tr>
+<tr>
+<td title='testcases.Checkout_StepTwo_Page_Test.VerifyTotalPriceLabel_Test()'><b>VerifyTotalPriceLabel_Test</b><br>Test class: testcases.Checkout_StepTwo_Page_Test<br/>
+<a href="#Output-1680018756" onClick='toggleBox("Output-1680018756", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1680018756" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1680018756">
+Price Total<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.Checkout_StepTwo_Page_Test@1672fe87</td></tr>
+<tr>
+<td title='testcases.Inventory_Page_Test.verifyTwitterLogo_Test()'><b>verifyTwitterLogo_Test</b><br>Test class: testcases.Inventory_Page_Test<br/>
+<a href="#Output-776691105" onClick='toggleBox("Output-776691105", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-776691105" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-776691105">
+Twitter Logo is Presenttrue<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.Inventory_Page_Test@4066c471</td></tr>
+<tr>
+<td title='testcases.Inventory_Page_Test.VerifyProd1_Test()'><b>VerifyProd1_Test</b><br>Test class: testcases.Inventory_Page_Test<br/>
+<a href="#Output-1812442475" onClick='toggleBox("Output-1812442475", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1812442475" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1812442475">
+Sauce Labs Backpack<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.Inventory_Page_Test@4066c471</td></tr>
+<tr>
+<td title='testcases.Checkout_StepTwo_Page_Test.VerifyPaymentInfoLabel_Test()'><b>VerifyPaymentInfoLabel_Test</b><br>Test class: testcases.Checkout_StepTwo_Page_Test<br/>
+<a href="#Output-705708158" onClick='toggleBox("Output-705708158", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-705708158" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-705708158">
+Payment Information:<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.Checkout_StepTwo_Page_Test@1672fe87</td></tr>
+<tr>
+<td title='testcases.Inventory_Page_Test.VerifyImgProd1_Test()'><b>VerifyImgProd1_Test</b><br>Test class: testcases.Inventory_Page_Test<br/>
+<a href="#Output-545392109" onClick='toggleBox("Output-545392109", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-545392109" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-545392109">
+Image1 Is Presenttrue<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.Inventory_Page_Test@4066c471</td></tr>
+<tr>
+<td title='testcases.Checkout_StepTwo_Page_Test.TotalLabel_Test()'><b>TotalLabel_Test</b><br>Test class: testcases.Checkout_StepTwo_Page_Test<br/>
+<a href="#Output-777588278" onClick='toggleBox("Output-777588278", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-777588278" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-777588278">
+Total Label is Present true<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.Checkout_StepTwo_Page_Test@1672fe87</td></tr>
+<tr>
+<td title='testcases.Complete_Page_Test.VerifyDispatched_Test()'><b>VerifyDispatched_Test</b><br>Test class: testcases.Complete_Page_Test<br/>
+<a href="#Output-195163601" onClick='toggleBox("Output-195163601", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-195163601" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-195163601">
+Your order has been dispatched, and will arrive just as fast as the pony can get there!<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.Complete_Page_Test@6ee4d9ab</td></tr>
+<tr>
+<td title='testcases.Inventory_Page_Test.verifylinkedInLogo_Test()'><b>verifylinkedInLogo_Test</b><br>Test class: testcases.Inventory_Page_Test<br/>
+<a href="#Output-1905093500" onClick='toggleBox("Output-1905093500", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1905093500" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1905093500">
+linkedIn Logo is Presenttrue<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.Inventory_Page_Test@4066c471</td></tr>
+<tr>
+<td title='testcases.Checkout_StepOne_Page_Test.VerifyImgGoBack_Test()'><b>VerifyImgGoBack_Test</b><br>Test class: testcases.Checkout_StepOne_Page_Test<br/>
+<a href="#Output-1205260967" onClick='toggleBox("Output-1205260967", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1205260967" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1205260967">
+GoBack Image 1 is Present true<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.Checkout_StepOne_Page_Test@1fb19a0</td></tr>
+<tr>
+<td title='testcases.Checkout_StepTwo_Page_Test.VerifySaucecardLabel_Test()'><b>VerifySaucecardLabel_Test</b><br>Test class: testcases.Checkout_StepTwo_Page_Test<br/>
+<a href="#Output-1026790721" onClick='toggleBox("Output-1026790721", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1026790721" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1026790721">
+SauceCard #31337<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.Checkout_StepTwo_Page_Test@1672fe87</td></tr>
+<tr>
+<td title='testcases.Inventory_Page_Test.VerifyProd3_Test()'><b>VerifyProd3_Test</b><br>Test class: testcases.Inventory_Page_Test<br/>
+<a href="#Output-1605399367" onClick='toggleBox("Output-1605399367", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1605399367" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1605399367">
+Sauce Labs Bolt T-Shirt<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.Inventory_Page_Test@4066c471</td></tr>
+<tr>
+<td title='testcases.Checkout_StepTwo_Page_Test.VerifyShippingInfoLabel_Test()'><b>VerifyShippingInfoLabel_Test</b><br>Test class: testcases.Checkout_StepTwo_Page_Test<br/>
+<a href="#Output-604664189" onClick='toggleBox("Output-604664189", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-604664189" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-604664189">
+Shipping Information:<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.Checkout_StepTwo_Page_Test@1672fe87</td></tr>
+<tr>
+<td title='testcases.Checkout_StepTwo_Page_Test.VerifyTaxLabel_Test()'><b>VerifyTaxLabel_Test</b><br>Test class: testcases.Checkout_StepTwo_Page_Test<br/>
+<a href="#Output-476119323" onClick='toggleBox("Output-476119323", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-476119323" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-476119323">
+Tax Label is Present true<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.Checkout_StepTwo_Page_Test@1672fe87</td></tr>
+<tr>
+<td title='testcases.Inventory_Page_Test.VerifyProd2_Test()'><b>VerifyProd2_Test</b><br>Test class: testcases.Inventory_Page_Test<br/>
+<a href="#Output-1507222570" onClick='toggleBox("Output-1507222570", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1507222570" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1507222570">
+Sauce Labs Bike Light<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.Inventory_Page_Test@4066c471</td></tr>
+<tr>
+<td title='testcases.Inventory_Page_Test.VerifyProd4Desc_Test()'><b>VerifyProd4Desc_Test</b><br>Test class: testcases.Inventory_Page_Test<br/>
+<a href="#Output-603259018" onClick='toggleBox("Output-603259018", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-603259018" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-603259018">
+It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.Inventory_Page_Test@4066c471</td></tr>
+</table><p>
+</body>
+</html>
